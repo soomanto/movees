@@ -1,0 +1,259 @@
+
+body {
+	margin :0;
+	padding :0;
+	background-color :#000000;
+	line-height :25px;
+}
+a {
+	outline :0;
+	text-decoration:none;
+}
+.poster1{
+	border :0;
+	width: 180px;
+	height: 270x;
+}
+.poster2{
+	border :0;
+	width: 180px;
+	height: 270x;
+}
+img.logfoot{
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	display: block;
+}
+@font-face {
+	font-family: "San Francisco";
+	font-weight: 400;
+	src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+#header {
+	height :220px;
+	width :100%;
+}
+#header div {
+	width :960px;
+	margin :0 auto;
+	
+	position :relative;
+}
+#header div a img {
+	border :0;
+	float :left;
+	overflow :hidden;
+	 margin-left: auto;
+    margin-right: auto;
+}
+#header div img.logo {
+	border :10;
+	overflow :hidden;
+	margin-top :10px;
+	 margin-left: auto;
+    margin-right: auto;
+}
+#body {
+	width :1050px;
+	margin :0 auto;
+	overflow :hidden;
+}
+#body #content {
+	width :960px;
+	margin :30px 35px;
+	height :auto;
+	padding-top :18px;
+	background-color :#F9F9F9;
+}
+#body #content div {
+	width :960px;
+	background-color :#fdfdfc;
+	padding-bottom :22px;
+}
+#body #content div div {
+	width :860px;
+	padding :10px 50px 50px 50px;
+	background-color :#fdfdfc;
+}
+#body #content div div h1 {
+	font-family :'San Francisco';
+	font-size :36px;
+	color :#ffffff;
+	font-weight :normal;
+	margin-bottom :50px;
+	text-align: center
+
+}
+#body #content div div ul {
+	list-style-type :none;
+	margin :0;
+	padding :0;
+}
+#body #content div div ul li {
+	float :none;
+	border-style :dotted;
+	border-top :none;
+	border-left :none;
+	border-right :none;
+	margin :0 0 50px 0;
+	position:relative;
+	padding-bottom: 20px;
+}
+#body #content div div ul li h2 {
+	font-family :'San Francisco';
+	font-size :30px;
+	color :#000000;
+	font-weight :normal;
+	width :850px;
+	
+}
+#body #content div div ul li h2 a{
+	font-family :'San Francisco';
+	font-size :30px;
+	color :#000000;
+	font-weight :normal;
+
+	
+}
+#body #content div div ul li h3 {
+	font-family :'San Francisco';
+	font-size :20px;
+	color :#000000;
+	font-weight :normal;
+	text-align:left;
+	margin-left: 30px;
+}
+h2 a {
+	font-family :'San Francisco';
+	font-size :24px;
+	color :#000000;
+	text-decoration :none;
+	font-weight :normal;
+}
+h2{
+	font-family :'San Francisco';
+	font-size :22px;
+	color :rgb(0, 0, 0);
+	text-decoration :none;	
+}
+h3{
+	color:#000000;
+	text-decoration:none;
+	font-size:18px;
+	text-align:left;
+	font-family :'San Francisco';
+	margin-left: 50px;
+}
+
+h4{
+	color:#000000;
+	text-decoration:none;
+	font-size:17px;
+	text-align:left;
+	font-family :'San Francisco';
+	margin-left: 80px;
+}
+
+
+p {
+	font-family :'San Francisco';
+	font-size :16px;
+	color :#000000;
+	font-weight :normal;
+	text-align:justify;
+}
+
+#body #content div div ul li p a:hover {
+	color :#000000;
+
+	
+}
+
+#footer div {
+	width :960px;
+	margin :0 auto;
+}
+#footer div ul {
+	list-style-type :none;
+	margin :0;
+	padding :0;
+}
+#footer div ul li.first {
+	text-align :left;
+	margin-top: 60px;
+	width: 200px;
+}
+#footer div ul li img {
+	border :0;
+}
+#footer div ul li {
+	float :left;
+	width :350px;
+	padding :0 5px;
+	text-align :center;
+}
+#footer div ul li.last {
+	float:right;
+	width :250px;
+}
+#footer div ul li h2 {
+	color :#fdfdfc;
+	font-family :'San Francisco';
+	font-weight :normal;
+	font-size :18px;
+	margin :10px 0;
+	padding :0;
+}
+#footer div ul li h3 {
+	color :#fdfdfc;
+	font-family :'San Francisco';
+	font-size :24px;
+	font-weight :normal;
+	margin :10px 0;
+	padding :0;
+}
+#footer div ul li ul {
+	list-style-type :none;
+	margin :0;
+	padding :0;
+}
+#footer div ul li img.logo {
+	margin: 10px 100px 0;
+}
+#footer div ul li ul li {
+	float :left;
+	width :auto;
+	margin :0 5px;
+	padding :0;
+}
+#design_bye{
+	 color: #fdfdfc;
+    font-family: 'San Francisco';
+    font-size: 14px;
+    text-align:center;
+}
+#fcb{
+	position: relative;
+	
+}
+.fb-like{
+	position: absolute !important;
+	right: 24%;
+    top: 82px;
+}
+#footer div ul li ul .connect li {
+	float :left;
+	width :auto;
+	margin :0 5px;
+	padding :0;
+}
+.footer-menu{
+	text-align:center;
+	color:#fff;
+	line-height: 12px;
+}
+.footer-menu a{
+	color:#fff;
+}
